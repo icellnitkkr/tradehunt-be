@@ -1,0 +1,134 @@
+{
+  "BTCUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1643212359/assets-icons/btc-bitcoin_rtptep.png",
+    "name": "Bitcoin",
+    "token": "BTCUSDT",
+    "currPrice": 0,
+    "percentChange": 0
+  },
+  "BNBUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1643212922/assets-icons/bnb-binance-coin_qozs3z.png",
+    "name": "Binance Coin",
+    "token": "BNBUSDT",
+    "currPrice": 0,
+    "percentChange": 0
+  },
+  "ETHUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1643212359/assets-icons/eth-ethereum_c6jqsq.png",
+    "name": "Ethereum",
+    "token": "ETHUSDT",
+    "currPrice": 0,
+    "percentChange": 0
+  },
+  "ADAUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1643212359/assets-icons/ada-cardano_hnkupj.png",
+    "name": "Cardano",
+    "token": "ADAUSDT",
+    "currPrice": 0,
+    "percentChange": 0,
+    "decimalPoints": 5
+  },
+  "XRPUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1643212359/assets-icons/xrp-xrp_idhvqc.png",
+    "name": "XRP",
+    "token": "XRPUSDT",
+    "currPrice": 0,
+    "percentChange": 0,
+    "decimalPoints": 5
+  },
+  "LUNAUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1643212359/assets-icons/luna-terra_znp0ds.png",
+    "name": "Terra",
+    "token": "LUNAUSDT",
+    "currPrice": 0,
+    "percentChange": 0
+  },
+  "DOGEUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1643212359/assets-icons/doge-dogecoin_utp808.png",
+    "name": "Dogecoin",
+    "token": "DOGEUSDT",
+    "currPrice": 0,
+    "percentChange": 0,
+    "decimalPoints": 5
+  },
+  "SOLUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1643212359/assets-icons/sol-solana_zz1iti.png",
+    "name": "Solana",
+    "token": "SOLUSDT",
+    "currPrice": 0,
+    "percentChange": 0
+  },
+  "AVAXUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1643212360/assets-icons/avax-avalanche_eujqut.png",
+    "name": "Avalanche",
+    "token": "AVAXUSDT",
+    "currPrice": 0,
+    "percentChange": 0
+  },
+  "DOTUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1643212359/assets-icons/dot-polkadot_ymyu1w.png",
+    "name": "Polkadot",
+    "token": "DOTUSDT",
+    "currPrice": 0,
+    "percentChange": 0
+  },
+  "MATICUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1643212359/assets-icons/matic-polygon_gosz18.png",
+    "name": "Polygon",
+    "token": "MATICUSDT",
+    "currPrice": 0,
+    "percentChange": 0,
+    "decimalPoints": 5
+  },
+  "SHIBUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1643212360/assets-icons/shib-shiba-inu_vldoev.png",
+    "name": "Shiba Inu",
+    "token": "SHIBUSDT",
+    "currPrice": 0,
+    "percentChange": 0,
+    "decimalPoints": 8
+  },
+  "LTCUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1644429276/assets-icons/ltc-litecoin_uu3nzw.png",
+    "name": "Litecoin",
+    "token": "LTCUSDT",
+    "currPrice": 0,
+    "percentChange": 0
+  },
+  "ATOMUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1644429275/assets-icons/atom-cosmos_o9jopl.png",
+    "name": "Cosmos",
+    "token": "ATOMUSDT",
+    "currPrice": 0,
+    "percentChange": 0
+  },
+  "NEARUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1644429275/assets-icons/near-near-protocol_uhzuiy.png",
+    "name": "Near Protocol",
+    "token": "NEARUSDT",
+    "currPrice": 0,
+    "percentChange": 0
+  },
+  "TRXUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1644429275/assets-icons/trx-tron_wvpezd.png",
+    "name": "Tron",
+    "token": "TRXUSDT",
+    "currPrice": 0,
+    "percentChange": 0,
+    "decimalPoints": 4
+  },
+  "UNIUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1644429275/assets-icons/uni-uniswap_o2orz7.png",
+    "name": "Uniswap",
+    "token": "UNIUSDT",
+    "currPrice": 0,
+    "percentChange": 0
+  },
+  "MANAUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1644430397/assets-icons/mana-decentraland_kevhga.png",
+    "name": "Decentraland ",
+    "token": "MANAUSDT",
+    "currPrice": 0,
+    "percentChange": 0
+  }
+}
