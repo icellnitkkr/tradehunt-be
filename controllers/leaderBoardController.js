@@ -34,7 +34,7 @@ const calculateLeaderBoard = async (id, contestId) => {
         }
       }
       allValues = allValues.sort((a, b) => b.portfolio - a.portfolio);
-      const res1 = allValues.slice(0, 30).map((i, ind) => {
+      const res1 = allValues.slice(0, 10).map((i, ind) => {
         return {
           ...i,
           position: ind + 1,

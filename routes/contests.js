@@ -4,7 +4,6 @@ const fetch = require("node-fetch");
 const Leaderboard = require("../models/Leaderboard");
 const nodemailer = require("nodemailer");
 
-
 const {
   calculateLeaderBoard,
 } = require("../controllers/leaderBoardController");
