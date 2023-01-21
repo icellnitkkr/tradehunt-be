@@ -426,7 +426,6 @@ router.post("/buyOrder", async (req, res) => {
       return res
         .status(400)
         .json({ success: false, message: "Missing Parameters" });
-    qty=Number(qty);
     const contest = await Contest.findOne({ _id: contestId });
     const Seller = contest.participants.find(
       (user) => user.user_id == req.user.id
