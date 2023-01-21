@@ -217,7 +217,7 @@ router.get("/getUserPortfolio/:contestId", async (req, res) => {
           const { walletAmount, holdings } = userObj;
           let portfolio = walletAmount;
           for (const holding of holdings) {
-            portfolio += prices[holding.token] * holding.qty;
+            portfolio += prices[holding.token] * Number(holding.qty);
           }
           res.status(200).send({
             portfolio,
