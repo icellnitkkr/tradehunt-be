@@ -51,6 +51,13 @@
     "percentChange": 0,
     "decimalPoints": 5
   },
+  "SOLUSDT": {
+    "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1643212359/assets-icons/sol-solana_zz1iti.png",
+    "name": "Solana",
+    "token": "SOLUSDT",
+    "currPrice": 0,
+    "percentChange": 0
+  },
   "AVAXUSDT": {
     "icon": "https://res.cloudinary.com/icellnitkkr/image/upload/v1643212360/assets-icons/avax-avalanche_eujqut.png",
     "name": "Avalanche",
