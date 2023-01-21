@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 
 //routes
+
 const userRouter = require("./routes/userRoutes");
 const contestRouter = require("./routes/contests");
 const adminRouter = require("./routes/admin");
@@ -16,6 +17,7 @@ const admin = require("./middleware/admin");
 const port = 3000;
 dotenv.config();
 
+//connect to db
 mongoose
   .connect(process.env.MONGO_URL)
   .then(() => console.log("connected to db"))
@@ -23,6 +25,7 @@ mongoose
     console.log("unable to conect to db because of error: ", err)
   );
 app.use(bodyParser.urlencoded({ extended: false }));
+
 
 // parse application/json
 app.use(bodyParser.json());

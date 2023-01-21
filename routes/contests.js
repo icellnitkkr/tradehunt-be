@@ -4,7 +4,6 @@ const fetch = require("node-fetch");
 const Leaderboard = require("../models/Leaderboard");
 const nodemailer = require("nodemailer");
 
-
 const {
   calculateLeaderBoard,
 } = require("../controllers/leaderBoardController");
@@ -340,7 +339,7 @@ router.post("/sellOrder", async (req, res) => {
         .status(400)
         .json({ success: false, message: "Holding does not exist" });
     }
-    if (qty > holding.qty) {
+    if (qty > Number(holding.qty)) {
       return res
         .status(400)
         .json({ success: false, message: "Not enough quantity available" });
@@ -362,7 +361,7 @@ router.post("/sellOrder", async (req, res) => {
     }
     const newWalletAmt = Seller.walletAmount + qty * rate;
     console.log(holding);
-    if (holding.qty.toFixed(5) == 0) {
+    if (Number(holding.qty).toFixed(5) == 0) {
       Contest.findOneAndUpdate(
         { _id: contestId, "participants.user_id": req.user.id },
         {
